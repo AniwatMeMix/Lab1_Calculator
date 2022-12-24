@@ -122,24 +122,24 @@ namespace LAP1
                 {
                     
                     double inpul2 = double.Parse(this.ANS2.Text);
-                    this.ANS2.Text = (input1 + inpul2).ToString("#,###.00");
+                    this.ANS2.Text = (input1 + inpul2).ToString("#,##0");
                
                 }
                 else if (this.GG == "-")
                 {
                     double inpul2 = double.Parse(this.ANS2.Text);
-                    this.ANS2.Text = (input1 - inpul2).ToString("#,###.00");
+                    this.ANS2.Text = (input1 - inpul2).ToString("#,##0");
                 
                 }
                 else if (this.GG == "*")
                 {
                     double inpul2 = double.Parse(this.ANS2.Text);
-                    this.ANS2.Text = (input1 * inpul2).ToString("#,###.00");
+                    this.ANS2.Text = (input1 * inpul2).ToString("#,##0");
                 }
                 else if (this.GG == "/")
                 {
                     double inpul2 = double.Parse(this.ANS2.Text);
-                    this.ANS2.Text = (input1 / inpul2).ToString("#,###.00");
+                    this.ANS2.Text = (input1 / inpul2).ToString("#,##0");
 
             }
              
@@ -148,12 +148,14 @@ namespace LAP1
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-            if (ANS2.Text.Length > 0)
+             // https:/stackoverflow.com/questions/55005814/how-can-i-separate-digits-with-comma-in-textbox-in-c-sharp-winform
+            if (ANS2.Text.Length > 0) 
             {
-                ANS2.Text = Convert.ToDouble(ANS2.Text).ToString("#,###");
+                ANS2.Text = Convert.ToDouble(ANS2.Text).ToString("#,##0");
                 ANS2.SelectionStart = ANS2.Text.Length;
+               
             }
-        }
+          
 
         private void button1_Click(object sender, EventArgs e)
         {

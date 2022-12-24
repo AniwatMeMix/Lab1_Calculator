@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work Code\\OOP\\LAP1\\LAP1\\LAP1.csproj",
+      "projectUniqueName": "C:\\Work Code\\OOP\\Lab1_Calculator\\LAP1\\LAP1\\LAP1.csproj",
       "projectName": "LAP1",
-      "projectPath": "C:\\Work Code\\OOP\\LAP1\\LAP1\\LAP1.csproj",
+      "projectPath": "C:\\Work Code\\OOP\\Lab1_Calculator\\LAP1\\LAP1\\LAP1.csproj",
       "packagesPath": "C:\\Users\\aniwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Work Code\\OOP\\LAP1\\LAP1\\obj\\",
+      "outputPath": "C:\\Work Code\\OOP\\Lab1_Calculator\\LAP1\\LAP1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aniwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
